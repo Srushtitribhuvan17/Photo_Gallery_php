@@ -125,13 +125,6 @@ This is a simple Photo Gallery Website that allows users to register, log in, an
 
 ---
 
-## Contact
-
-**Developer:** Your Name
-**Email:** your.email@example.com
-**GitHub:** [github.com/yourusername](https://github.com/yourusername)
-
----
 
 *Thank you for using the Photo Gallery Website! Feel free to contribute or suggest improvements.*
 
