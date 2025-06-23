@@ -1,6 +1,7 @@
 <?php
 include 'db.php';
 
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $username = $_POST["username"];
     $pass = $_POST["password"];
@@ -14,8 +15,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if ($sql->fetch() && password_verify($pass, $password)) {
         $_SESSION["username"] = $username;
         $_SESSION["id"] = $id;
-        header("Location: dash.php"); 
-        exit();
+      header("Location:dash.php"); 
+exit();
     } else {
         echo "<div style='color:red;text-align:center;'>Invalid username or password</div>";
     }
